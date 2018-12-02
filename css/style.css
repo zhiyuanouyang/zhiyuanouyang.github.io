@@ -401,7 +401,7 @@ body.offcanvas {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  position: relative; }
+  position: relative;}
 
 .colorlib-heading {
   font-size: 18px;
@@ -611,6 +611,14 @@ body.offcanvas {
   opacity: .4;
   -ms-filter: alpha(opacity=40);
   filter: alpha(opacity=40);
+  font-size: 16px; }
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h3 span {
+/*  -webkit-opacity: .4;
+  -moz-opacity: .4;
+  opacity: .4;
+  -ms-filter: alpha(opacity=40);
+  filter: alpha(opacity=40);*/
   font-size: 16px; }
 
 .services {
