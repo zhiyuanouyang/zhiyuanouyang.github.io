@@ -613,13 +613,24 @@ body.offcanvas {
   filter: alpha(opacity=40);
   font-size: 16px; }
 
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h3 span {
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h3 {
+  position: relative;
+  top: -20px;
 /*  -webkit-opacity: .4;
   -moz-opacity: .4;
   opacity: .4;
   -ms-filter: alpha(opacity=40);
   filter: alpha(opacity=40);*/
+  font-family: cursive;
   font-size: 16px; }
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h3 span {
+  -webkit-opacity: .6;
+  -moz-opacity: .6;
+  opacity: .6;
+  -ms-filter: alpha(opacity=60);
+  filter: alpha(opacity=60);
+  font-size: 12px; }
 
 .services {
   margin-bottom: 30px;
