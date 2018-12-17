@@ -716,6 +716,11 @@ body.offcanvas {
       font-size: 16px;
       font-weight: 700;
       text-transform: uppercase; }
+    .services .desc .progress-wrap h4{
+      font-size: 16px;
+      font-family: "Quicksand", Arial, sans-serif;
+      margin-bottom: 10px; 
+      text-align:left;}
   .services.color-2 .icon {
     background: #ec5453; }
     .services.color-2 .icon:before {
