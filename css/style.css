@@ -636,7 +636,7 @@ body.offcanvas {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h3 {
   position: relative;
-  top: -20px;
+  top: 0px;
 /*  -webkit-opacity: .4;
   -moz-opacity: .4;
   opacity: .4;
