@@ -1,3 +1,5 @@
+alert('Being Updating!')
+
 ;(function () {
 	
 	'use strict';
