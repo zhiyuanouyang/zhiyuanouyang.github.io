@@ -1474,3 +1474,7 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.description {
+  width: 100%
+}
