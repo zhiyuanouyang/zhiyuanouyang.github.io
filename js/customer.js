@@ -1,264 +1,276 @@
 var frameworks = [
 {
 	'tag': 'Kafka',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '> 4 years'
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
 },
 {
 	'tag': 'Storm',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '> 4 years'
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
 },
 {
 	'tag': 'Spark',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '> 4 years'
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
 },
 {
 	'tag': 'Hadoop',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '> 4 years'
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
 },
 {
 	'tag': 'Fluentd',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '> 4 years'
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
 },
 {
 	'tag': 'Dropwizard',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '> 4 years'
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
 },
 {
 	'tag': 'Django',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '> 4 years'
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
 },
 {
 	'tag': 'Grafana',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '> 4 years'
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
 },
 {
-	'tag': 'ELK',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '> 4 years'
+	'tag': 'Logstash',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Kibana',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
 },
 {
 	'tag': 'Pig',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '> 4 years'
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
 },
 {
 	'tag': 'Oozie',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '> 4 years'
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
 },
 {
 	'tag': 'Flume',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '> 4 years'
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
 },
 {
 	'tag': 'Hive',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '> 4 years'
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
 },
 {
 	'tag': 'Kudu',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '> 4 years'
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
 },
 {
 	'tag': 'Impala',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '> 4 years'
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
 }
 ];
 
 var languages = [
 {
 	'tag': 'Java',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '> 4 years'
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
 },
 {
 	'tag': 'Python',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '> 4 years'
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
 },
 {
 	'tag': 'Ruby',
 	'colarIndex': '3',
-	'widthPercentage': '75',
-	'mark': '~ 3 years'
+	'widthPercentage': '90',
+	'mark': 'Advanced'
 },
 {
 	'tag': 'Shell',
 	'colarIndex': '2',
-	'widthPercentage': '50',
-	'mark': '~ 2 years'
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
 },
 {
 	'tag': 'Perl',
 	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'widthPercentage': '30',
+	'mark': 'Basic'
 },
 {
 	'tag': 'Javascript',
 	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'widthPercentage': '30',
+	'mark': 'Basic'
 },
 {
 	'tag': 'CSS',
 	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'widthPercentage': '30',
+	'mark': 'Basic'
 },
 {
-	'tag': 'Html',
+	'tag': 'HTML',
 	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'widthPercentage': '30',
+	'mark': 'Basic'
 },
 {
 	'tag': 'Go',
 	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'widthPercentage': '30',
+	'mark': 'Basic'
 }
 ]
 
 var databases = [
 {
 	'tag': 'SQLite',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '< 1 year'
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
 },
 {
 	'tag': 'MySQL',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '< 1 year'
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
 },
 {
 	'tag': 'PostgreSQL',
-	'colarIndex': '4',
-	'widthPercentage': '100',
-	'mark': '< 1 year'
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
 },
 {
 	'tag': 'HBase',
-	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
 },
 {
 	'tag': 'Cassandra',
-	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
 },
 {
 	'tag': 'MongoDB',
-	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
 },
 {
 	'tag': 'Neo4j',
-	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
+},
+{
+	'tag': 'Elasticsearch',
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
 },
 {
 	'tag': 'H2',
-	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
 }
 ]
 
 var tools = [
 {
 	'tag': 'Docker',
-	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
 },
 {
 	'tag': 'Kubernates',
 	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'widthPercentage': '30',
+	'mark': 'Basic'
 },
 {
 	'tag': 'Jenkins',
-	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
 },
 {
-	'tag': 'TravisCI',
-	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'tag': 'Travis-CI',
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
 },
 {
 	'tag': 'Maven',
-	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
 },
 {
 	'tag': 'Git',
-	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
 },
 {
 	'tag': 'Puppet',
 	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'widthPercentage': '30',
+	'mark': 'Basic'
 },
 {
 	'tag': 'Hudson',
 	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'widthPercentage': '30',
+	'mark': 'Intermediate'
 },
 {
 	'tag': 'Subversion',
 	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'widthPercentage': '30',
+	'mark': 'Basic'
 },
 {
 	'tag': 'Ansible',
 	'colarIndex': '1',
-	'widthPercentage': '25',
-	'mark': '< 1 year'
+	'widthPercentage': '30',
+	'mark': 'Basic'
 }
 ]
 
