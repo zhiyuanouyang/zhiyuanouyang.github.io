@@ -1,102 +1,3 @@
-var frameworks = [
-{
-	'tag': 'Kafka',
-	'colarIndex': '3',
-	'widthPercentage': '90',
-	'mark': 'Advanced'
-},
-{
-	'tag': 'Storm',
-	'colarIndex': '2',
-	'widthPercentage': '60',
-	'mark': 'Intermediate'
-},
-{
-	'tag': 'Spark',
-	'colarIndex': '2',
-	'widthPercentage': '60',
-	'mark': 'Intermediate'
-},
-{
-	'tag': 'Hadoop',
-	'colarIndex': '3',
-	'widthPercentage': '90',
-	'mark': 'Advanced'
-},
-{
-	'tag': 'Fluentd',
-	'colarIndex': '3',
-	'widthPercentage': '90',
-	'mark': 'Advanced'
-},
-{
-	'tag': 'Dropwizard',
-	'colarIndex': '3',
-	'widthPercentage': '90',
-	'mark': 'Advanced'
-},
-{
-	'tag': 'Django',
-	'colarIndex': '2',
-	'widthPercentage': '60',
-	'mark': 'Intermediate'
-},
-{
-	'tag': 'Grafana',
-	'colarIndex': '2',
-	'widthPercentage': '60',
-	'mark': 'Intermediate'
-},
-{
-	'tag': 'Logstash',
-	'colarIndex': '1',
-	'widthPercentage': '30',
-	'mark': 'Basic'
-},
-{
-	'tag': 'Kibana',
-	'colarIndex': '1',
-	'widthPercentage': '30',
-	'mark': 'Basic'
-},
-{
-	'tag': 'Pig',
-	'colarIndex': '1',
-	'widthPercentage': '30',
-	'mark': 'Basic'
-},
-{
-	'tag': 'Oozie',
-	'colarIndex': '1',
-	'widthPercentage': '30',
-	'mark': 'Basic'
-},
-{
-	'tag': 'Flume',
-	'colarIndex': '1',
-	'widthPercentage': '30',
-	'mark': 'Basic'
-},
-{
-	'tag': 'Hive',
-	'colarIndex': '3',
-	'widthPercentage': '90',
-	'mark': 'Advanced'
-},
-{
-	'tag': 'Kudu',
-	'colarIndex': '1',
-	'widthPercentage': '30',
-	'mark': 'Basic'
-},
-{
-	'tag': 'Impala',
-	'colarIndex': '3',
-	'widthPercentage': '90',
-	'mark': 'Advanced'
-}
-];
-
 var languages = [
 {
 	'tag': 'Java',
@@ -211,30 +112,111 @@ var databases = [
 }
 ]
 
+var frameworks = [
+{
+	'tag': 'Kafka',
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
+},
+{
+	'tag': 'Hadoop',
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
+},
+{
+	'tag': 'Fluentd',
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
+},
+{
+	'tag': 'Dropwizard',
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
+},
+{
+	'tag': 'Hive',
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
+},
+{
+	'tag': 'Impala',
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
+},
+{
+	'tag': 'Storm',
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
+},
+{
+	'tag': 'Spark',
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
+},
+{
+	'tag': 'Django',
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
+},
+{
+	'tag': 'Grafana',
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
+},
+{
+	'tag': 'Logstash',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Kibana',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Pig',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Oozie',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Flume',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Kudu',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+}
+];
+
 var tools = [
 {
 	'tag': 'Docker',
 	'colarIndex': '3',
 	'widthPercentage': '90',
 	'mark': 'Advanced'
-},
-{
-	'tag': 'Kubernates',
-	'colarIndex': '1',
-	'widthPercentage': '30',
-	'mark': 'Basic'
-},
-{
-	'tag': 'Jenkins',
-	'colarIndex': '2',
-	'widthPercentage': '60',
-	'mark': 'Intermediate'
-},
-{
-	'tag': 'Travis-CI',
-	'colarIndex': '2',
-	'widthPercentage': '60',
-	'mark': 'Intermediate'
 },
 {
 	'tag': 'Maven',
@@ -249,7 +231,25 @@ var tools = [
 	'mark': 'Advanced'
 },
 {
+	'tag': 'Jenkins',
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
+},
+{
+	'tag': 'Travis-CI',
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
+},
+{
 	'tag': 'Puppet',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Kubernates',
 	'colarIndex': '1',
 	'widthPercentage': '30',
 	'mark': 'Basic'
@@ -275,6 +275,10 @@ var tools = [
 ]
 
 function fillDiv(divId, jsonArr){
+	jsonArr.sort(function compare(a, b){
+		return b['widthPercentage'].localeCompare(a['widthPercentage'])
+	});
+
 	var div = document.getElementById(divId);
 	var arr = []
 	for(var i = 0; i < jsonArr.length; i++){
