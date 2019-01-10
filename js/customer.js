@@ -109,6 +109,24 @@ var databases = [
 	'colarIndex': '2',
 	'widthPercentage': '60',
 	'mark': 'Intermediate'
+},
+{
+	'tag': 'Memcached',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Redis',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'MariaDB',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
 }
 ]
 
