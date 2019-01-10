@@ -127,6 +127,18 @@ var databases = [
 	'colarIndex': '1',
 	'widthPercentage': '30',
 	'mark': 'Basic'
+},
+{
+	'tag': 'Couchbase',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'OrientDB',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
 }
 ]
 

@@ -1,4 +1,4 @@
-alert('Being Updating!')
+// alert('Being Updating!')
 
 ;(function () {
 	
