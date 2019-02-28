@@ -99,12 +99,6 @@ var databases = [
 	'mark': 'Intermediate'
 },
 {
-	'tag': 'Elasticsearch',
-	'colarIndex': '2',
-	'widthPercentage': '60',
-	'mark': 'Intermediate'
-},
-{
 	'tag': 'H2',
 	'colarIndex': '2',
 	'widthPercentage': '60',
@@ -199,6 +193,12 @@ var frameworks = [
 },
 {
 	'tag': 'Grafana',
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
+},
+{
+	'tag': 'Elasticsearch',
 	'colarIndex': '2',
 	'widthPercentage': '60',
 	'mark': 'Intermediate'
