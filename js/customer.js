@@ -23,12 +23,12 @@ var languages = [
 	'widthPercentage': '60',
 	'mark': 'Intermediate'
 },
-{
-	'tag': 'Perl',
-	'colarIndex': '1',
-	'widthPercentage': '30',
-	'mark': 'Basic'
-},
+// {
+// 	'tag': 'Perl',
+// 	'colarIndex': '1',
+// 	'widthPercentage': '30',
+// 	'mark': 'Basic'
+// },
 {
 	'tag': 'Javascript',
 	'colarIndex': '1',
@@ -298,6 +298,18 @@ var tools = [
 },
 {
 	'tag': 'Ansible',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Mesos',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Yarn',
 	'colarIndex': '1',
 	'widthPercentage': '30',
 	'mark': 'Basic'
