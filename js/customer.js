@@ -162,18 +162,6 @@ var frameworks = [
 	'mark': 'Advanced'
 },
 {
-	'tag': 'Hive',
-	'colarIndex': '3',
-	'widthPercentage': '90',
-	'mark': 'Advanced'
-},
-{
-	'tag': 'Impala',
-	'colarIndex': '3',
-	'widthPercentage': '90',
-	'mark': 'Advanced'
-},
-{
 	'tag': 'Storm',
 	'colarIndex': '2',
 	'widthPercentage': '60',
@@ -192,12 +180,6 @@ var frameworks = [
 	'mark': 'Intermediate'
 },
 {
-	'tag': 'Grafana',
-	'colarIndex': '2',
-	'widthPercentage': '60',
-	'mark': 'Intermediate'
-},
-{
 	'tag': 'Elasticsearch',
 	'colarIndex': '2',
 	'widthPercentage': '60',
@@ -210,31 +192,7 @@ var frameworks = [
 	'mark': 'Basic'
 },
 {
-	'tag': 'Kibana',
-	'colarIndex': '1',
-	'widthPercentage': '30',
-	'mark': 'Basic'
-},
-{
-	'tag': 'Pig',
-	'colarIndex': '1',
-	'widthPercentage': '30',
-	'mark': 'Basic'
-},
-{
-	'tag': 'Oozie',
-	'colarIndex': '1',
-	'widthPercentage': '30',
-	'mark': 'Basic'
-},
-{
 	'tag': 'Flume',
-	'colarIndex': '1',
-	'widthPercentage': '30',
-	'mark': 'Basic'
-},
-{
-	'tag': 'Kudu',
 	'colarIndex': '1',
 	'widthPercentage': '30',
 	'mark': 'Basic'
@@ -261,6 +219,18 @@ var tools = [
 	'mark': 'Advanced'
 },
 {
+	'tag': 'Hive',
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
+},
+{
+	'tag': 'Impala',
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
+},
+{
 	'tag': 'Jenkins',
 	'colarIndex': '2',
 	'widthPercentage': '60',
@@ -271,6 +241,36 @@ var tools = [
 	'colarIndex': '2',
 	'widthPercentage': '60',
 	'mark': 'Intermediate'
+},
+{
+	'tag': 'Grafana',
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
+},
+{
+	'tag': 'Pig',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Kudu',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Kibana',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Oozie',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
 },
 {
 	'tag': 'Puppet',
