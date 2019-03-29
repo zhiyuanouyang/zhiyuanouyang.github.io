@@ -23,12 +23,6 @@ var languages = [
 	'widthPercentage': '60',
 	'mark': 'Intermediate'
 },
-// {
-// 	'tag': 'Perl',
-// 	'colarIndex': '1',
-// 	'widthPercentage': '30',
-// 	'mark': 'Basic'
-// },
 {
 	'tag': 'Javascript',
 	'colarIndex': '1',
@@ -52,7 +46,19 @@ var languages = [
 	'colarIndex': '1',
 	'widthPercentage': '30',
 	'mark': 'Basic'
-}
+},
+//  {
+// 	'tag': 'Perl',
+// 	'colarIndex': '1',
+// 	'widthPercentage': '30',
+// 	'mark': 'Basic'
+// },
+// {
+// 	'tag': 'PHP',
+// 	'colarIndex': '1',
+// 	'widthPercentage': '30',
+// 	'mark': 'Basic'
+// }
 ]
 
 var databases = [
@@ -180,12 +186,6 @@ var frameworks = [
 	'mark': 'Intermediate'
 },
 {
-	'tag': 'Elasticsearch',
-	'colarIndex': '2',
-	'widthPercentage': '60',
-	'mark': 'Intermediate'
-},
-{
 	'tag': 'Logstash',
 	'colarIndex': '1',
 	'widthPercentage': '30',
@@ -197,11 +197,24 @@ var frameworks = [
 	'widthPercentage': '30',
 	'mark': 'Basic'
 }
+// ,
+// {
+// 	'tag': 'Akka',
+// 	'colarIndex': '1',
+// 	'widthPercentage': '30',
+// 	'mark': 'Basic'
+// }
 ];
 
 var tools = [
 {
 	'tag': 'Docker',
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
+},
+{
+	'tag': 'Prometheus',
 	'colarIndex': '3',
 	'widthPercentage': '90',
 	'mark': 'Advanced'
@@ -231,6 +244,12 @@ var tools = [
 	'mark': 'Advanced'
 },
 {
+	'tag': 'Elasticsearch',
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
+},
+{
 	'tag': 'Jenkins',
 	'colarIndex': '2',
 	'widthPercentage': '60',
@@ -247,6 +266,18 @@ var tools = [
 	'colarIndex': '2',
 	'widthPercentage': '60',
 	'mark': 'Intermediate'
+},
+{
+	'tag': 'KairosDB',
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
+},
+{
+	'tag': 'Superset',
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Basic'
 },
 {
 	'tag': 'Pig',
@@ -288,7 +319,7 @@ var tools = [
 	'tag': 'Hudson',
 	'colarIndex': '1',
 	'widthPercentage': '30',
-	'mark': 'Intermediate'
+	'mark': 'Basic'
 },
 {
 	'tag': 'Subversion',
@@ -310,6 +341,36 @@ var tools = [
 },
 {
 	'tag': 'Yarn',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'HAProxy',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'InfluxDB',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'OpenTSDB',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Graphite',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Druid',
 	'colarIndex': '1',
 	'widthPercentage': '30',
 	'mark': 'Basic'
