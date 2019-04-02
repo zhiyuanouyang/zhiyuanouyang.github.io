@@ -322,7 +322,7 @@ var tools = [
 	'mark': 'Basic'
 },
 {
-	'tag': 'Kubernates',
+	'tag': 'Kubernetes',
 	'colarIndex': '1',
 	'widthPercentage': '30',
 	'mark': 'Basic'
