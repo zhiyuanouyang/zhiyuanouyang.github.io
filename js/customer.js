@@ -203,6 +203,12 @@ var frameworks = [
 // 	'colarIndex': '1',
 // 	'widthPercentage': '30',
 // 	'mark': 'Basic'
+// },
+// {
+// 	'tag': 'Flask',
+// 	'colarIndex': '1',
+// 	'widthPercentage': '30',
+// 	'mark': 'Basic'
 // }
 ];
 
@@ -275,6 +281,12 @@ var tools = [
 },
 {
 	'tag': 'Superset',
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Zookeeper',
 	'colarIndex': '2',
 	'widthPercentage': '60',
 	'mark': 'Basic'
@@ -375,6 +387,13 @@ var tools = [
 	'widthPercentage': '30',
 	'mark': 'Basic'
 }
+// ,
+// {
+// 	'tag': 'Ngnix',
+// 	'colarIndex': '1',
+// 	'widthPercentage': '30',
+// 	'mark': 'Basic'
+// }
 ]
 
 function fillDiv(divId, jsonArr){
