@@ -196,20 +196,19 @@ var frameworks = [
 	'colarIndex': '1',
 	'widthPercentage': '30',
 	'mark': 'Basic'
+},
+{
+	'tag': 'Akka',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Flask',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
 }
-// ,
-// {
-// 	'tag': 'Akka',
-// 	'colarIndex': '1',
-// 	'widthPercentage': '30',
-// 	'mark': 'Basic'
-// },
-// {
-// 	'tag': 'Flask',
-// 	'colarIndex': '1',
-// 	'widthPercentage': '30',
-// 	'mark': 'Basic'
-// }
 ];
 
 var tools = [
@@ -386,14 +385,13 @@ var tools = [
 	'colarIndex': '1',
 	'widthPercentage': '30',
 	'mark': 'Basic'
+},
+{
+	'tag': 'Ngnix',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
 }
-// ,
-// {
-// 	'tag': 'Ngnix',
-// 	'colarIndex': '1',
-// 	'widthPercentage': '30',
-// 	'mark': 'Basic'
-// }
 ]
 
 function fillDiv(divId, jsonArr){
