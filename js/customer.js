@@ -150,7 +150,7 @@ var frameworks = [
 	'mark': 'Advanced'
 },
 {
-	'tag': 'Hadoop',
+	'tag': 'Hadoop MapReduce',
 	'colarIndex': '3',
 	'widthPercentage': '90',
 	'mark': 'Advanced'
@@ -197,12 +197,48 @@ var frameworks = [
 	'widthPercentage': '30',
 	'mark': 'Basic'
 },
-{
-	'tag': 'Akka',
-	'colarIndex': '1',
-	'widthPercentage': '30',
-	'mark': 'Basic'
-},
+// {
+// 	'tag': 'Akka',
+// 	'colarIndex': '1',
+// 	'widthPercentage': '30',
+// 	'mark': 'Basic'
+// },
+// {
+// 	'tag': 'Cucumber',
+// 	'colarIndex': '1',
+// 	'widthPercentage': '30',
+// 	'mark': 'Basic'
+// },
+// {
+// 	'tag': 'RabbitMQ',
+// 	'colarIndex': '1',
+// 	'widthPercentage': '30',
+// 	'mark': 'Basic'
+// },
+// {
+// 	'tag': 'RocketMQ',
+// 	'colarIndex': '1',
+// 	'widthPercentage': '30',
+// 	'mark': 'Basic'
+// },
+// {
+// 	'tag': 'ActiveMQ',
+// 	'colarIndex': '1',
+// 	'widthPercentage': '30',
+// 	'mark': 'Basic'
+// },
+// {
+// 	'tag': 'Swagger',
+// 	'colarIndex': '1',
+// 	'widthPercentage': '30',
+// 	'mark': 'Basic'
+// },
+// {
+// 	'tag': 'Flink',
+// 	'colarIndex': '1',
+// 	'widthPercentage': '30',
+// 	'mark': 'Basic'
+// },
 {
 	'tag': 'Flask',
 	'colarIndex': '1',
@@ -392,6 +428,13 @@ var tools = [
 	'widthPercentage': '30',
 	'mark': 'Basic'
 }
+// ,
+// {
+// 	'tag': 'Rocket',
+// 	'colarIndex': '1',
+// 	'widthPercentage': '30',
+// 	'mark': 'Basic'
+// }
 ]
 
 function fillDiv(divId, jsonArr){
