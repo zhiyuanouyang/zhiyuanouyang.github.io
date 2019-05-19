@@ -654,6 +654,17 @@ body.offcanvas {
   font-size: 16px; 
   float:right;}
 
+.timeline-label h4 {
+  position: relative;
+  top: 0px;
+  -webkit-opacity: .6;
+  -moz-opacity: .6;
+  opacity: .6;
+  -ms-filter: alpha(opacity=60);
+  filter: alpha(opacity=60);
+  font-family: Lucida Console, Courier, monospace;
+  font-size: 16px; }
+
 .services {
   margin-bottom: 30px;
   padding: 1.5em;

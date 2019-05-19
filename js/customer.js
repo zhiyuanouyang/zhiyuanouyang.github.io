@@ -30,6 +30,18 @@ var languages = [
 	'mark': 'Basic'
 },
 {
+	'tag': 'C',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'C++',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
 	'tag': 'CSS',
 	'colarIndex': '1',
 	'widthPercentage': '30',
@@ -235,6 +247,12 @@ var frameworks = [
 // },
 // {
 // 	'tag': 'Flink',
+// 	'colarIndex': '1',
+// 	'widthPercentage': '30',
+// 	'mark': 'Basic'
+// },
+// {
+// 	'tag': 'Samza',
 // 	'colarIndex': '1',
 // 	'widthPercentage': '30',
 // 	'mark': 'Basic'
