@@ -18,16 +18,16 @@ var languages = [
 	'mark': 'Advanced'
 },
 {
-	'tag': 'Shell',
+	'tag': 'Scala',
 	'colarIndex': '2',
 	'widthPercentage': '60',
-	'mark': 'Intermediate'
+	'mark': 'Basic'
 },
 {
-	'tag': 'Scala',
+	'tag': 'Shell',
 	'colarIndex': '1',
-	'widthPercentage': '30',
-	'mark': 'Basic'
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
 },
 {
 	'tag': 'Javascript',
