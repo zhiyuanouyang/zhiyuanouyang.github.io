@@ -24,6 +24,12 @@ var languages = [
 	'mark': 'Intermediate'
 },
 {
+	'tag': 'Scala',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
 	'tag': 'Javascript',
 	'colarIndex': '1',
 	'widthPercentage': '30',
