@@ -19,15 +19,15 @@ var languages = [
 },
 {
 	'tag': 'Scala',
-	'colarIndex': '2',
-	'widthPercentage': '60',
+	'colarIndex': '1',
+	'widthPercentage': '30',
 	'mark': 'Basic'
 },
 {
 	'tag': 'Shell',
 	'colarIndex': '1',
-	'widthPercentage': '60',
-	'mark': 'Intermediate'
+	'widthPercentage': '30',
+	'mark': 'Basic'
 },
 {
 	'tag': 'Javascript',
@@ -41,12 +41,12 @@ var languages = [
 	'widthPercentage': '30',
 	'mark': 'Basic'
 },
-{
-	'tag': 'C++',
-	'colarIndex': '1',
-	'widthPercentage': '30',
-	'mark': 'Basic'
-},
+// {
+// 	'tag': 'C++',
+// 	'colarIndex': '1',
+// 	'widthPercentage': '30',
+// 	'mark': 'Basic'
+// },
 {
 	'tag': 'CSS',
 	'colarIndex': '1',
@@ -129,13 +129,13 @@ var databases = [
 	'mark': 'Intermediate'
 },
 {
-	'tag': 'Memcached',
-	'colarIndex': '1',
-	'widthPercentage': '30',
-	'mark': 'Basic'
+	'tag': 'Redis',
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Intermediate'
 },
 {
-	'tag': 'Redis',
+	'tag': 'Memcached',
 	'colarIndex': '1',
 	'widthPercentage': '30',
 	'mark': 'Basic'
@@ -215,6 +215,18 @@ var frameworks = [
 	'widthPercentage': '30',
 	'mark': 'Basic'
 },
+{
+	'tag': 'Samza',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Flink',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
 // {
 // 	'tag': 'Akka',
 // 	'colarIndex': '1',
@@ -227,38 +239,26 @@ var frameworks = [
 // 	'widthPercentage': '30',
 // 	'mark': 'Basic'
 // },
-// {
-// 	'tag': 'RabbitMQ',
-// 	'colarIndex': '1',
-// 	'widthPercentage': '30',
-// 	'mark': 'Basic'
-// },
-// {
-// 	'tag': 'RocketMQ',
-// 	'colarIndex': '1',
-// 	'widthPercentage': '30',
-// 	'mark': 'Basic'
-// },
-// {
-// 	'tag': 'ActiveMQ',
-// 	'colarIndex': '1',
-// 	'widthPercentage': '30',
-// 	'mark': 'Basic'
-// },
+{
+	'tag': 'RabbitMQ',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'RocketMQ',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'ActiveMQ',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
 // {
 // 	'tag': 'Swagger',
-// 	'colarIndex': '1',
-// 	'widthPercentage': '30',
-// 	'mark': 'Basic'
-// },
-// {
-// 	'tag': 'Flink',
-// 	'colarIndex': '1',
-// 	'widthPercentage': '30',
-// 	'mark': 'Basic'
-// },
-// {
-// 	'tag': 'Samza',
 // 	'colarIndex': '1',
 // 	'widthPercentage': '30',
 // 	'mark': 'Basic'
@@ -309,6 +309,12 @@ var tools = [
 	'mark': 'Advanced'
 },
 {
+	'tag': 'Zookeeper',
+	'colarIndex': '3',
+	'widthPercentage': '90',
+	'mark': 'Advanced'
+},
+{
 	'tag': 'Elasticsearch',
 	'colarIndex': '2',
 	'widthPercentage': '60',
@@ -333,21 +339,15 @@ var tools = [
 	'mark': 'Intermediate'
 },
 {
-	'tag': 'KairosDB',
+	'tag': 'Superset',
 	'colarIndex': '2',
 	'widthPercentage': '60',
 	'mark': 'Intermediate'
 },
 {
-	'tag': 'Superset',
-	'colarIndex': '2',
-	'widthPercentage': '60',
-	'mark': 'Basic'
-},
-{
-	'tag': 'Zookeeper',
-	'colarIndex': '2',
-	'widthPercentage': '60',
+	'tag': 'KairosDB',
+	'colarIndex': '1',
+	'widthPercentage': '30',
 	'mark': 'Basic'
 },
 {
@@ -382,6 +382,12 @@ var tools = [
 },
 {
 	'tag': 'Kubernetes',
+	'colarIndex': '1',
+	'widthPercentage': '30',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Helm',
 	'colarIndex': '1',
 	'widthPercentage': '30',
 	'mark': 'Basic'
