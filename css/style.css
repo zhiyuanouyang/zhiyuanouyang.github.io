@@ -561,6 +561,43 @@ body.offcanvas {
   position: relative;
   margin-left: -20px; }
 
+.logo {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-size: 40px 40px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  -moz-box-shadow: 0 0 0 5px #f2f3f7;
+  -webkit-box-shadow: 0 0 0 5px #f2f3f7;
+  box-shadow: 0 0 0 5px #f2f3f7;
+  line-height: 40px;
+  float: left; 
+}
+
+.google-logo {
+  background-image: url("../images/google_logo.png");
+}
+
+.oracle-logo {
+  background-image: url("../images/oracle_logo.png");
+}
+
+.kuleuven-logo {
+  background-image: url("../images/kuleuven_logo.jpg");
+}
+
+.jiaotong-logo {
+  background-image: url("../images/jiaotong.png");
+}
+
+.cmu-logo {
+  background-image: url("../images/cmu.png");
+}
+
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
   display: block;
   width: 40px;
