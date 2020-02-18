@@ -13,8 +13,8 @@ var languages = [
 },
 {
 	'tag': 'Ruby',
-	'colarIndex': '3',
-	'widthPercentage': '90',
+	'colarIndex': '2',
+	'widthPercentage': '60',
 	'mark': 'Advanced'
 },
 {
@@ -31,6 +31,12 @@ var languages = [
 },
 {
 	'tag': 'Javascript',
+	'colarIndex': '2',
+	'widthPercentage': '60',
+	'mark': 'Basic'
+},
+{
+	'tag': 'Typescript',
 	'colarIndex': '1',
 	'widthPercentage': '30',
 	'mark': 'Basic'
