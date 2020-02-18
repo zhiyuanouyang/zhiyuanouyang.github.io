@@ -37,8 +37,8 @@ var languages = [
 },
 {
 	'tag': 'Typescript',
-	'colarIndex': '2',
-	'widthPercentage': '60',
+	'colarIndex': '1',
+	'widthPercentage': '30',
 	'mark': 'Basic'
 },
 {
