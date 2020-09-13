@@ -11,6 +11,11 @@
 *	Edit this section
 *
 * ======================================================= */
+
+#btn-download {
+  background: #f2f3f7;
+}
+
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
