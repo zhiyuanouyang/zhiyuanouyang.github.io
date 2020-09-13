@@ -12,10 +12,6 @@
 *
 * ======================================================= */
 
-#btn-download {
-  background: #f2f3f7;
-}
-
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
@@ -421,6 +417,9 @@ body.offcanvas {
     .colorlib-contact {
       padding-top: 5em;
       padding-bottom: 8em; } }
+.last-colorlib {
+  padding-bottom: 18em;
+}
 
 .author-img {
   background-size: cover;
